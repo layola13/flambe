@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flambe TypeScript Example</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #222;
+            color: white;
+        }
+        
+        #flambe-canvas {
+            border: 1px solid #666;
+            background: #000;
+            display: block;
+            margin: 20px auto;
+        }
+        
+        .info {
+            text-align: center;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="info">
+        <h1>Flambe TypeScript Engine</h1>
+        <p>Game engine ported from Haxe to TypeScript</p>
+        <p>Check the browser console for engine initialization messages.</p>
+    </div>
+    
+    <canvas id="flambe-canvas" width="800" height="600"></canvas>
+    
+    <div class="info">
+        <p>Canvas size: 800x600</p>
+    </div>
+
+    <script type="module" src="./Main.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+{
+  "name": "flambe-ts",
+  "version": "4.1.0",
+  "description": "Flambe game engine ported to TypeScript - HTML5/JS platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist",
+    "test": "jest",
+    "serve": "http-server dist/examples -p 8080"
+  },
+  "keywords": [
+    "game-engine",
+    "html5",
+    "javascript",
+    "typescript",
+    "entity-component-system",
+    "2d-graphics",
+    "animation",
+    "sprites"
+  ],
+  "author": {
+    "name": "Bruno Garcia (TypeScript port)",
+    "email": "b@aduros.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/layola13/flambe"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "http-server": "^14.0.0"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
